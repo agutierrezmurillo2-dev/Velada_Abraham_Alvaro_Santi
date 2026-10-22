@@ -1,0 +1,128 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family:  Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #111; /* gris muy oscuro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+/*logo*/
+.logo img {
+    width: 120px;
+    height: auto;
+}
+/*menu*/
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    color: #fff; /*texto blanco*/
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*Cartel del evento*/
+.cartel-evento{
+    text-align: center; /*centra todo el cotenido*/
+    padding: 40px 20px; /*Espacio alrededor*/
+}
+.cartel-evento h1 {
+    font-size: 40px; /*titulo grande*/
+    margin-bottom: 20px; /*espacio debajo del titutlo*/
+    color: #b366ff;
+    text-shadow: 0 0 10px #b366ff;
+    animation: neonFluido 2s infinite alternate;
+}
+@keyframes neonFluido {
+    0% {
+        text-shadow: 0 0 10px #b366ff;
+    }
+    100% {
+        text-shadow: 0 0 25px #ffea00;
+    }
+    
+}
+.cartil-evento p {
+    font-size: 40px; /*tamaño de texto mas grande */
+    margin-bottom: 10px 0; /*separecion entre lineas*/
+}
+ /*imagen del cartel*/
+ .imagen-cartel img {
+    width: 300px; /*tamaño del cartel*/
+    height: auto; 
+    margin-top: 20px; /*separacion del texto */
+    border-radius: 10px; /*bordes redondeados*/
+ }
+ /*efecto neon morado en el menu*/
+ nav ul li a {
+    color: #b366ff; /*morado neon*/
+    text-shadow: 0 0 8px #b366ff; /*brillo alrededor*/
+    transition: 0.3s; /*animacion suave*/
+ }
+/*efecto al pasar el raton*/
+nav ul li a:hover {
+    color: #ffea00; /*amarillo neon*/
+    text-shadow: 0 0 10px #ffea00;
+}
+.boton-entradas {
+    display: inline-block;  /* Para que se comporte como botón */
+    background-color: #b366ff;
+    color: #000;
+    padding: 15px 30px; 
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    text-shadow: 0 0 5px #ffea00;
+    box-shadow: 0 0 15px #b366ff;
+    transition: 0.3s;
+}
+.comprar-entradas {
+     text-align: center;
+    margin-top: 40px;
+}
+/*efecto al pasar el raton*/
+.boton-entradas:hover {
+    background-color: #ffea00;
+    color: #000;
+    box-shadow: 0 0 20px #ffea00;
+    text-shadow: 0 0 8px #b366ff;
+}
+/*contador*/
+.contador {
+    text-align: center;
+    margin-top: 40px;
+}
+.contador h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ffea00;
+    text-shadow: 0 0 8px #ffea00;
+}
+.tiempos {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #b366ff;
+    text-shadow: 0 0 8px #b366ff;
+    letter-spacing: 4px;
+}
+/*footer*/
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #888;
+    font-size: 14px;
+}
