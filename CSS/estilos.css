@@ -13,9 +13,32 @@ header {
     padding: 20px 40px;
 }
 /*logo*/
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 .logo img {
     width: 120px;
     height: auto;
+}
+/* Texto del logo*/
+.logo-texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* P.E.P.E */
+.marca {
+    font-size: 24px;  
+    font-weight: 800;
+    color: #ffffff;   
+    text-shadow: 
+        0 0 8px #b366ff,
+        0 0 12px #4db8ff;
+    margin: 0;
 }
 /*menu*/
 nav ul {
