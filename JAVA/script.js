@@ -16,9 +16,9 @@ function actualizarContador() {
 
     document.getElementById("contador").textContent =
          dias + " días |" +
-         horas + " horas |" +
-         minutos + " minutos |" +
-         segundos + " segundos";
+         horas + "h |" +
+         minutos + "m |" +
+         segundos + "s";
 
 }
 
