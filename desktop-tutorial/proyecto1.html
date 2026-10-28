@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>pag.oficial.veladaVII</title>
+    <link rel="stylesheet" href="CSS/estils.css">
+</head>
+<body>
+    <div class="pagina">
+
+    <header>
+        <img src="img/LOGO.png" width="120" height="auto">
+        <nav>
+        <a href="Pagina_Principal.html">INICIO</a> |
+        <a href="Combates.html">COMBATES</a>  |
+        <a href="entradas.html" class="activo">ENTRADAS</a> |
+        <a href="faq.html">FAQ</a>
+        </nav>
+    </header>   
+    <main class="tarjeta">
+        <form class="formulario" id="f.entrada" action="/enviar" method="post">
+            <label for="nombre">Nombre y apellidos:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+<br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Inserte su email"required>
+<br>          
+            <label for="number">Teléfono</label>
+            <input type="number" id="number" name="number" placeholder="Inserte su numero de telefono" required>
+<br>         
+            <label for="direccion">Direccion</label>
+            <input type="text" id="direccion" name="direccion" placeholder="Escriba su direccion" required>
+<br>
+            <label for="tarjeta">Datos bancarios</label>
+            <input type="number" id="tarjeta" name="tarjeta" placeholder="num. tarjeta" required>
+<br>     
+            <div class="fila">
+            <input type="month" id="caducidad" name="caducidad" placeholder="00/00" required>
+            <input type="number" id="cvv" name="cvv" placeholder="CVV" required>
+            </div>   
+<br>
+<br>
+<br>
+<br>            
+            <button type="submit" required>PAGAR</button>
+            
+        </form>
+        
+        
+        <section class="EVENTO">
+            <div class="cartel">
+                <img src="img/velada_VII_mejorada.png" alt="Cartel EVENTO" width="300">
+            </div>
+            <div class="info">
+                <p>TIPOS DE ENTRADA PARA LA VELADA DEL AÑO VII</p>
+                <select id="tipo" name="tipo" form="f-entrada">
+                        <option value="85">General - 85€</option>
+                        <option value="120">Medium 1 - 120€</option>
+                        <option value="130">Medium 2 - 130€</option>
+                        <option value="200">Front ROW - 200€</option>
+                        <option value="260">Palco VIP - 260€</option>
+                </select>
+            </div>
+        </section>
+    </main>
+    
+        
+    </div>
+</body>
+
+</html>
