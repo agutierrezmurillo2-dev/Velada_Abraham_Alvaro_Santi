@@ -4,97 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Combates - Velada P.E.P.E</title>
-    <style>
-    
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: sans-serif;
-        }
-
-        body {
-            background-color: #000000; 
-            color: #60135f;
-            padding: 20px;
-            min-height: 100vh;
-        }
-
-        .contenedor-principal {
-            border: 2px solid #650476;
-            border-radius: 20px;
-            padding: 30px;
-            min-height: 90vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .cabecera {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 60px;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            font-style: italic;
-        }
-
-        .navegacion {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            font-size: 1.1rem;
-        }
-
-        .navegacion a {
-            text-decoration: none;
-            color: #a31e84; 
-        }
-
-        .navegacion a.activo {
-            border: 2px solid #650476;
-            border-radius: 10px;
-            padding: 5px 15px;
-            font-weight: bold;
-        }
-
-        
-        .grid-combates {
-            display: flex;
-            justify-content: space-between;
-            gap: 20px;
-            flex-grow: 1; 
-        }
-
-        .carta {
-            flex: 1;
-            border: 2px solid #da05af;
-            border-radius: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            aspect-ratio: 1 / 2.2;
-        }
-
-        .texto-diagonal {
-            transform: rotate(-50deg);
-            font-weight: bold;
-            font-size: 1.5rem;
-            letter-spacing: 2px;
-            white-space: nowrap;
-        }
-    </style>
+   
+    <link rel="stylesheet" href="CSS/combates.css">
 </head>
 <body>
     <div class="contenedor-principal">
         <header class="cabecera">
-            <div class="logo">LOGO P.E.P.E</div>
+            <div class="logo">
+                <img src="img/LOGO.png" alt="Logo PEPE">
+            </div>
             <nav class="navegacion">
                 <a href="index.html">Inicio</a> | 
-                <a href="combates.html" class="activo">Combates</a> | 
+                <a href="Combates.html" class="activo">Combates</a> | 
                 <a href="entradas.html">Entradas</a> | 
                 <a href="faq.html">FAQ</a>
             </nav>
@@ -102,16 +23,28 @@
 
         <main class="grid-combates">
             <div class="carta">
-                <span class="texto-diagonal">CARA A CARA</span>
+                <img src="img/Jake paul vs Gero arias.png" alt="Jake Paul vs Gero Arias">
             </div>
             <div class="carta">
-                <span class="texto-diagonal">CARA A CARA</span>
+                <img src="img/Jsuper vs Gerard.png" alt="Jsuper vs Gerard">
             </div>
             <div class="carta">
-                <span class="texto-diagonal">CARA A CARA</span>
+                <img src="img/Lola indigo vs Aitana.png" alt="Lola Indigo vs Aitana">
             </div>
             <div class="carta">
-                <span class="texto-diagonal">CARA A CARA</span>
+                <img src="img/Metrika vs bbtriks.png" alt="Metrika vs Bbtriks">
+            </div>
+            <div class="carta">
+                <img src="img/Pereira7 vs Agustin51.png" alt="Pereira7 vs Agustin51">
+            </div>
+            <div class="carta">
+                <img src="img/Viruzz vs tomas mazza.png" alt="Viruzz vs Tomas Mazza">
+            </div>
+            <div class="carta">
+                <img src="img/Willirex vs Vegeta777.png" alt="Willirex vs Vegeta777">
+            </div>
+            <div class="carta">
+                <img src="img/Xavi vs Cesc Fabregas.png" alt="Xavi vs Cesc Fabregas">
             </div>
         </main>
     </div>
