@@ -69,8 +69,9 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    aspect-ratio: 1 / 1.5; 
-    overflow: hidden; 
+    aspect-ratio: 1 / 1.5;
+    overflow: hidden;
+    position: relative; 
 }
 
 .carta img {
@@ -78,17 +79,44 @@ nav a:hover {
     height: 100%;
     object-fit: cover;
 }
+
 .modo-claro {
     background-color: white;
     color: black;
 }
+
 #modo-btn {
     background-color: #b366ff;
-    color:white;
+    color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
     box-shadow: 0 0 10px #b366ff;
+}
+
+.info-luchadores {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(160, 32, 240, 0.9); 
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.carta:hover .info-luchadores {
+    transform: translateY(0);
+}
+
+.hora-combate {
+    margin-top: 10px;
+    color: #ffea00; 
+    font-weight: bold;
 }
