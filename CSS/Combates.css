@@ -12,15 +12,19 @@ body {
     min-height: 100vh;
 }
 
-.contenedor-principal {
-    border: 2px solid #a020f0;
-    border-radius: 20px;
-    padding: 30px;
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
+nav a {
+    color: #b366ff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    text-shadow: 0 0 8px #b366ff;
+    transition: 0.3s;
 }
 
+nav a:hover {
+    color: #ffea00;
+    text-shadow: 0 0 10px #ffea00;
+}
 .cabecera {
     display: flex;
     justify-content: space-between;

@@ -174,3 +174,13 @@ h2{
         0 0 12px #4db8ff;
     margin: 0;
 }
+nav ul li a {
+    color: #b366ff; 
+    text-shadow: 0 0 8px #b366ff;
+    transition: 0.3s; 
+ }
+
+nav ul li a:hover {
+    color: #ffea00; 
+    text-shadow: 0 0 10px #ffea00;
+}
