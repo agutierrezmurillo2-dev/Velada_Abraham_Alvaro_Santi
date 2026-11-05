@@ -59,7 +59,7 @@ a{
     border: 2px solid #222;
     border-radius: 10px;
     background-color: white;
-    color: #f2f2f2;
+    color: #262525;
     font-size: 14px;
     border-right: 2px solid #a020f0;
 }
@@ -177,4 +177,14 @@ h2{
 .modo-claro {
     background-color: white;
     color: black;
+}
+
+#errores .error {
+    color: #ff4d4d;
+    background: rgba(255, 77, 77, 0.12);
+    border-left: 4px solid #ff4d4d;
+    padding: 6px 10px;
+    margin: 4px 0;
+    border-radius: 4px;
+    font-size: 0.9rem;
 }
