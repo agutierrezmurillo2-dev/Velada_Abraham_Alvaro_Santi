@@ -1,0 +1,157 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family:  Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+.logo-texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.marca {
+    font-size: 24px;  
+    font-weight: 800;
+    color: #ffffff;   
+    text-shadow: 
+        0 0 8px #b366ff,
+        0 0 12px #4db8ff;
+    margin: 0;
+}nav a {
+    color: #b366ff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    text-shadow: 0 0 8px #b366ff;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffea00;
+    text-shadow: 0 0 10px #ffea00;
+}
+main {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #b366ff;
+    text-shadow: 0 0 10px #b366ff;
+    animation: neonFluido 2s infinite alternate;
+    margin-bottom: 50px;
+}
+
+main h2 {
+    color: #ffea00;
+    text-shadow: 0 0 8px #ffea00;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-bottom: 2px solid #b366ff;
+    padding-bottom: 10px;
+}
+
+details {
+    background-color: #111;
+    border: 2px solid #b366ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 0 10px #b366ff;
+    transition: 0.3s;
+}
+
+details:hover {
+    box-shadow: 0 0 20px #ffea00;
+    border-color: #ffea00;
+}
+summary {
+    color: #4db8ff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+}
+
+summary:hover {
+    color: #ffea00;
+    text-shadow: 0 0 8px #ffea00;
+}
+
+details p {
+    color:white;
+    margin-top: 15px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+#modo-btn {
+    background-color: #b366ff;
+    color:white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px #b366ff;
+}
+
+.modo-claro {
+    background-color: white;
+    color: black;
+}
+.modo-claro header {
+    background-color: #dcdcdc;
+}
+.modo-claro footer {
+    background-color: #dcdcdc;
+    color: #333;
+}
+.modo-claro details {
+    background-color: white;
+    color: black;
+    border: 2px solid #b366ff;
+}
+.modo-claro details p {
+    color: black;
+}
+.modo-claro summary {
+    color: #0066cc;
+}
+
+.modo-claro nav ul li a {
+    color: #7d2ae8;
+}
+
+.modo-claro .marca {
+    color: #000;
+}
+
+.modo-claro h2 {
+    color: #c7a000;
+    text-shadow: none;
+}

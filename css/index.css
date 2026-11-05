@@ -86,7 +86,7 @@ nav ul li a {
     border-radius: 10px; 
  }
 
- nav ul li a {
+nav ul li a {
     color: #b366ff; 
     text-shadow: 0 0 8px #b366ff;
     transition: 0.3s; 
@@ -163,4 +163,24 @@ footer {
 .modo-claro {
     background-color: white;
     color: black;
+}
+.modo-claro header {
+    background-color: #dcdcdc;
+}
+.modo-claro footer {
+    background-color: #dcdcdc;
+    color: #333;
+}
+
+.modo-claro nav ul li a {
+    color: #7d2ae8;
+}
+
+.modo-claro .marca {
+    color: #000;
+}
+
+.modo-claro h2 {
+    color: #c7a000;
+    text-shadow: none;
 }
