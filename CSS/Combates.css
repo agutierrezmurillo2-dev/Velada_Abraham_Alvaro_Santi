@@ -74,3 +74,17 @@ body {
     height: 100%;
     object-fit: cover;
 }
+.modo-claro {
+    background-color: white;
+    color: black;
+}
+#modo-btn {
+    background-color: #b366ff;
+    color:white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px #b366ff;
+}
