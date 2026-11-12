@@ -18,6 +18,7 @@ header {
     align-items: center;
     gap: 15px;
 }
+
 .logo img {
     width: 120px;
     height: auto;
@@ -31,14 +32,15 @@ header {
 }
 
 .marca {
-    font-size: 24px;  
+    font-size: 24px;
     font-weight: 800;
-    color: #ffffff;   
-    text-shadow: 
+    color: #ffffff;
+    text-shadow:
         0 0 8px #b366ff,
         0 0 12px #4db8ff;
     margin: 0;
-}nav a {
+}
+nav a {
     color: #b366ff;
     text-decoration: none;
     font-weight: bold;
