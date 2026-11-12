@@ -41,6 +41,4 @@ function validaFormulario() {
     if (!/^[6-9]\d{8}$/.test(f.Number.value.trim())) {
         errores.push("El teléfono debe tener 9 dígitos.");
     }
-
-    if 
 }
