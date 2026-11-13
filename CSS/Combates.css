@@ -120,3 +120,16 @@ nav a:hover {
     color: #ffea00; 
     font-weight: bold;
 }
+body.modo-claro {
+    background-color: white;
+    color: black;
+}
+
+body.modo-claro .carta, 
+body.modo-claro .navegacion a.activo {
+    border-color: black; 
+}
+
+body.modo-claro .navegacion a {
+    color: black; 
+}
