@@ -125,11 +125,6 @@ body.modo-claro {
     color: black;
 }
 
-body.modo-claro .carta, 
-body.modo-claro .navegacion a.activo {
-    border-color: black; 
-}
 
-body.modo-claro .navegacion a {
-    color: black; 
-}
+
+
