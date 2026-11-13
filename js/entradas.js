@@ -43,6 +43,7 @@ function validaFormulario() {
     if (!/^[6-9]\d{8}$/.test(f.number.value.trim())) {
         errores.push("El teléfono debe tener 9 dígitos.");
     }
+<<<<<<< HEAD
 
     if (!f.nacimiento.value) {
         errores.push("Indica tu fecha de nacimiento.");
@@ -125,3 +126,6 @@ form.addEventListener("submit", function (e) {
 });
 
 calcularTotal();
+=======
+}
+>>>>>>> 0085b09ed8ce60142a896c9db67f18a9c1a4df06

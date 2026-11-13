@@ -53,7 +53,12 @@ nav ul li a {
     font-size: 18px;
     font-weight: bold;
 }
-
+.activo {
+    border: 2px solid #b366ff;
+    border-radius: 12px;
+    padding: 8px 20px;
+    box-shadow: 0 0 10px #b366ff;
+}
 .cartel-evento{
     text-align: center; 
     padding: 40px 20px; 
